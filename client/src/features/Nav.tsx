@@ -8,7 +8,7 @@ import '../../src/style/Nav.css'
 type NavData = {
     "about-page": {
       nav: {
-        [key: string]: string;
+        [key: string]: string | string[];
       };
     };
   };
