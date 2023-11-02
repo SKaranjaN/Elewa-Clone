@@ -1,6 +1,6 @@
 {"about-page" : 
     {
-        "logo": "",
+        "logo": "client/src/assets/logo/Logo_White_arvoyx.svg",
         "logo-alt": "logo",
         "home": "Home",
         "aboutUs": "About Us",
