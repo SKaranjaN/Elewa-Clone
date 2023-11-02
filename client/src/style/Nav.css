@@ -59,8 +59,11 @@
 /* Media query for screens with a maximum width of 767 pixels (typical for mobile screens) */
 @media (max-width: 767px) {
     /* hides the link items and the hr */
-    .nav-link, .horizontal-line {
+    .nav-link, .horizontal-line, .sticky-nav {
         display: none;
     }
 
+    .nav-body {
+        overflow-x: hidden;  /* prevents the scroll from right to left */
+    }
   }
