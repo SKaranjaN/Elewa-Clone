@@ -5,6 +5,7 @@
 /* The styling below targets the div containing the nav items */
 .nav-body {
     padding: 50px 0 0 80px;
+    
 }
 
 .nav-links {
@@ -16,11 +17,11 @@
 }
 
 .nav-logo {
-    margin-right: 35%; /* Add spacing to the right of the logo */
+    margin-right: 32%; /* Add spacing to the right of the logo */
 }
 
 .nav-link {
-    font-family: 'DM Sans' Regular;
+    font-family: 'DM Sans';
     font-size: 15px;
     padding: 15px 0 0 15px;  /* the left padding justifies the spaces between the link list items */
     color: #fff;
