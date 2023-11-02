@@ -1,14 +1,16 @@
 {"about-page" : 
     {
-        "logo": "client/src/assets/logo/Logo_White_arvoyx.svg",
-        "logo-alt": "logo",
-        "home": "Home",
-        "aboutUs": "About Us",
-        "socialImpact": "Social Impact",
-        "ventureLabs": "Venture Labs",
-        "brand": "Brands",
-        "careers": "Careers",
-        "contact": "Contact",
+        "nav" : {
+            "logo": "client/src/assets/logo/Logo_White_arvoyx.svg",
+            "logo-alt": "logo",
+            "home": "Home",
+            "aboutUs": "About Us",
+            "socialImpact": "Social Impact",
+            "ventureLabs": "Venture Labs",
+            "brand": "Brands",
+            "careers": "Careers",
+            "contact": "Contact"
+        },
         "phrase-1": "HOW TO RECOGNIZE AN ELEWA MEMBER",
         "aboutPageH1A": "Dependable, Creative, Supportive",
         "aboutPageH1B": "Open Minded and Fun*",
