@@ -20,7 +20,7 @@ type NavData = {
             // here we are creating a condition in order to create an image element that will contain the path to the image and the alt text, in that if the key is "logo", then using dot notation we can access the value and use it as the src to the image
           if (key === 'logo') {
             return (
-              <li key={key}>
+              <li key={key} className="nav-logo">
                 <img src={jsonData['about-page'].nav.logo} alt={jsonData['about-page'].nav['logo-alt']} />
               </li>
             );
@@ -28,7 +28,7 @@ type NavData = {
             // this will then render the other key values after iterating through them by also using dot notation
             return (
               <li key={key}>
-                <a href={key}>{jsonData['about-page'].nav[key]}</a>
+                <a href={key} className="nav-link">{jsonData['about-page'].nav[key]}</a>
               </li>
             );
           }
@@ -36,9 +36,12 @@ type NavData = {
       
         return (
             // through the variable we earlier defined, we can then use it in our return hence avoiding hardcording our values.
-          <ul>
-            {navItems}
-          </ul>
+            <div className="nav-body">
+                <ul className="nav-links">
+                    {navItems}
+                </ul>
+                <hr className="horizontal-line" />
+            </div>
         );
       }
       
