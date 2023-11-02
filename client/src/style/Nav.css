@@ -66,4 +66,9 @@
     .nav-body {
         overflow-x: hidden;  /* prevents the scroll from right to left */
     }
+    .nav-logo {
+        display: flex;
+    }
+    
+    
   }
