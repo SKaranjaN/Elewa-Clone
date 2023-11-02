@@ -36,12 +36,14 @@ type NavData = {
       
         return (
             // through the variable we earlier defined, we can then use it in our return hence avoiding hardcording our values.
-            <div className="nav-body">
-                <ul className="nav-links">
-                    {navItems}
-                </ul>
+            <>
+                <div className="nav-body">
+                    <ul className="nav-links">
+                        {navItems}
+                    </ul>
+                </div>
                 <hr className="horizontal-line" />
-            </div>
+            </>
         );
       }
       
