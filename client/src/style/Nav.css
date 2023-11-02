@@ -2,4 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
+/* The styling below targets the div containing the nav items */
+.nav-body {
+    padding: 50px 0 0 80px;
+}
 
+.nav-links {
+    display: flex; /* this makes the div mobile responsive */
+    flex-direction: row;
+    align-items: right;
+    margin: 0 80px 0 auto;  /* align the div element to the a bit to the right  */
+    list-style-type: none;  /* this removes the pointers from the list items */
+}
+.nav-links a {
+    font-family: 'DM Sans' Regular;
+    font-size: 15px;
+    padding: 15px 0 0 20px;  /* the left padiing justifies the spaces between the link list items */
+    color: #fff;
+    text-decoration: none;  /* this style removes the underline from the link elements */
+}
