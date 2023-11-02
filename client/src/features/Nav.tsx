@@ -15,7 +15,7 @@ type NavData = {
   
     function Nav() {
         const jsonData: NavData = navData;  // then over here we are explicitly casting the JSON data to the defined type
-      
+        
         // this is an iteration that maps the items in the nav object
         const navItems = Object.keys(jsonData['about-page'].nav).map((key) => {
             // here we are creating a condition in order to create an image element that will contain the path to the image and the alt text, in that if the key is "logo", then using dot notation we can access the value and use it as the src to the image
@@ -29,7 +29,7 @@ type NavData = {
           } else {
             // this will then render the other key values after iterating through them by also using dot notation
             return (
-              <li key={key}>
+              <li key={key} >
                 <a href={key} className="nav-link">{jsonData['about-page'].nav[key]}</a>
               </li>
             );
