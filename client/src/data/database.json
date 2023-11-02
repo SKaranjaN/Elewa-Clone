@@ -1,0 +1,196 @@
+{"about-page" : 
+    {
+        "logo": "",
+        "logo-alt": "logo",
+        "home": "Home",
+        "aboutUs": "About Us",
+        "socialImpact": "Social Impact",
+        "ventureLabs": "Venture Labs",
+        "brand": "Brands",
+        "careers": "Careers",
+        "contact": "Contact",
+        "phrase-1": "HOW TO RECOGNIZE AN ELEWA MEMBER",
+        "aboutPageH1A": "Dependable, Creative, Supportive",
+        "aboutPageH1B": "Open Minded and Fun*",
+        "phrase-2": "SERIOUS WHEN IT MATTERS",
+        "aboutPageH2": "We Care!",
+        "aboutPageP1": ["Elewa is a mission-driven organization. We make", "use of our cooperative and shared culture to", "drive the needle for the development of people", "and environment. We care about our growth, but", "also care deeply about the context surroundin", "us."],
+        "aboutPageP2": ["Our investments are therefore not limited to", "internal ones, but contribute heavily to our", "community and environment. From training the", "next scout leaders on sustainable practices, to", "bridging the employment gap for junior software", "developers."],
+        "teamH1": ["Team |", "Management"],
+        "member1": {"name" : "Jente Rosseel",
+                    "title" : "Founder, Managing Partner",
+                    "linkeIn" : "https://www.linkedin.com/in/jrosseel/", 
+                    "image" : "client/src/assets/images/about-page-images/jente-elewa_wbqyyi.jpg"
+                    },
+        "member2": {"name" : "Kennedy Adhola",
+                    "title" : "Operations & Partnerships",
+                    "linkeIn" : "https://www.linkedin.com/in/kennedy-adhola-97570535/", 
+                    "image" : "client/src/assets/images/about-page-images/ken-elewa_ydwzop.jpg"
+                    },
+        "member3": {"name" : "Peter Reinartz",
+                    "title" : "Executive Chairman",
+                    "linkeIn" : "https://www.linkedin.com/in/peter-reinartz-1b4452ab/", 
+                    "image" : "client/src/assets/images/about-page-images/peter-elewa_zuzovx.jpg"
+                    },
+        "member4": {"name" : "Noella Mwanzia",
+                    "title" : "Software Engineer",
+                    "linkeIn" : "https://www.linkedin.com/in/noella-mwanzia-633803173/", 
+                    "image" : "client/src/assets/images/about-page-images/noella-elewa_g6tquq.jpg"
+                    },
+        "member5": {"name" : "Ian Odhiambo",
+                    "title" : "Founder, Kujali",
+                    "linkeIn" : "https://www.linkedin.com/feed/", 
+                    "image" : "client/src/assets/images/about-page-images/ian-elewa_bejey9.jpg"
+                    },
+        "member6": {"name" : "Jane Njoroge",
+                    "title" : "Software Developer",
+                    "linkeIn" : "https://www.linkedin.com/in/jane-w-njoroge/", 
+                    "image" : "client/src/assets/images/about-page-images/jane-elewa_yyybka.jpg"
+                    },
+        "member7": {"name" : "Shawn Chiama",
+                    "title" : "Software Engineer",
+                    "linkeIn" : "https://www.linkedin.com/feed/", 
+                    "image" : "client/src/assets/images/about-page-images/shawn-elewa_tt3iit.jpg"
+                    },
+        "member8": {"name" : "Joy-Lidah Wawira",
+                    "title" : "Software Engineer",
+                    "linkeIn" : "https://www.linkedin.com/in/joy-wawira/", 
+                    "image" : "client/src/assets/images/about-page-images/joy_gvbweu.jpg"
+                    },
+        "member9": {"name" : "Reagan Charana",
+                    "title" : "Software Engineer",
+                    "linkeIn" : "https://www.linkedin.com/in/reagan-charana/", 
+                    "image" : "client/src/assets/images/about-page-images/reagan-elewa_bn8xkl.jpg"
+                    },
+        "member10": {"name" : "Jente Rosseel",
+                    "title" : "Founder, Managing Partner",
+                    "linkeIn" : "https://www.linkedin.com/in/jrosseel/", 
+                    "image" : "client/src/assets/images/about-page-images/jente-elewa_wbqyyi.jpg"
+                    },
+        "member11": {"name" : "Paul Chesa",
+                    "title" : "Software Engineer",
+                    "linkeIn" : "https://www.linkedin.com/in/paulchesa/", 
+                    "image" : "client/src/assets/images/about-page-images/chesa-elewa_soeb8f.jpg"
+                    },
+        "member12": {"name" : "Jeff King'ori",
+                    "title" : "Software Developer",
+                    "linkeIn" : "https://www.linkedin.com/in/jeffrey-king-ori-165333164/", 
+                    "image" : "client/src/assets/images/about-page-images/jeff-elewa_hdupp7.jpg"
+                    },
+        "member13": {"name" : "Zippy Ntabo",
+                    "title" : "Office Administrator & Finance",
+                    "linkeIn" : "https://www.linkedin.com/in/zippie-ntabo-310693134/", 
+                    "image" : "client/src/assets/images/about-page-images/zip-elewa_jksbfg.jpg"
+                    },
+        "member14": {"name" : "Lynn Anastasia",
+                    "title" : "Software Engineer",
+                    "linkeIn" : "https://www.linkedin.com/in/lynn-nyangon/", 
+                    "image" : "client/src/assets/images/about-page-images/IMG_9755_vfprhm.jpg"
+                    },
+        "member15": {"name" : "FrankLine Odero",
+                    "title" : "Software Developer",
+                    "linkeIn" : "https://www.linkedin.com/in/frankline-sable/", 
+                    "image" : "client/src/assets/images/about-page-images/frank-elewa_kihn9e.jpg"
+                    },
+        "member16": {"name" : "Stephen Mwaura",
+                    "title" : "Software Developer",
+                    "linkeIn" : "https://www.linkedin.com/in/stephenlemmymwaura/", 
+                    "image" : "client/src/assets/images/about-page-images/lemmy_oosngt.jpg"
+                    },
+        "leftArrow": "client/src/assets/icons/left-btn-icon.png",
+        "rightArrow": "client/src/assets/icons/right-btn-icon.png",
+        "cultureH1" : "Our Culture & Values",
+        "cultreP" : ["Our culture", "CODE-(T),", "defines us. It protects and guides us to", "success. It keeps our team and management accountable to", "itself, its objective, and our long-term mission."],
+        "cooperative" : { "icon" : "client/src/assets/icons/coorperative_kzlzrg (1).png",
+                          "h1" : "Cooperative",
+                          "p" : ["One for all, all for one! We have a cooperative and open", "mindset. If one of us grows, all will follow."] 
+                        },
+        "ownership" : { "icon" : "client/src/assets/icons/ownership_yno4a2.png",
+                        "h1" : "Ownership",
+                        "p" : ["We are dependable and honour our commitments. When", "things don't do as planned, as they sometimes do, we", "communicate early to avoid catastrophe."] 
+                      },
+        "detail" : { "icon" : "client/src/assets/icons/1721983-200.png",
+                      "h1" : "Detail",
+                      "p" : ["We are a 'Centre of Excellence' as per global standards.", "We only compete with ourselves, but find in the global standard our only worthy rival."] 
+                    },
+        "empathy" : { "icon" : "client/src/assets/icons/ownership_yno4a2.png",
+                      "h1" : "Empathy",
+                      "p" : ["We are nothing without people, and people have different", "contexts and needs. Our organization acts as a safe haven", "and shield for those in need."] 
+                    },
+        "transparency" : { "icon" : "client/src/assets/icons/Transparancy_fqal8q.png",
+                      "h1" : "Transparency",
+                      "p" : ["Transparency, an open mind, and an open heart hold our organization together.", "We commit to and promote full transparency to ourselves, our stakeholders,", "and our beneficiaries. We furthermore invest heavily in open-source and open-", "data projects, as true pontential lies everywhere. Not just within."] 
+                    },
+        "mapH1" : "How to get there",
+        "mapP" : ["Based in the heart of Westlands, Nairobi, Kenya, we are easily", "accessible from all parts of the city.", "Not in town? Teams, Meets or Zoom are our second name. Book an", "appointment today via", "contact@elewa.ke!"], 
+        "aboutButtonText" : "Get directions", 
+        "historyH1": "Our history",
+        "history" : {
+            "item1" : {
+                "year" : 2015, 
+                "h2" : "Elew is born", 
+                "p" : ["From a Belgian garage and Embakasi apartment,", "Elewa first sees the light as a purely SaaS-based", "EdTech analyzing KCSE past papers."]
+            },
+            "item2" : {
+                "year" : 2017, 
+                "h2" : "Kickstarting Elewa Education", 
+                "p" : ["With an initial pre-seed investment of friends and", "family and a masters thesis on the subject, Elewa", "pilots it's innovative 'Four Pillars' model in 5", "secondary schools across Kenya. Learning", "outcomes go through the roof in only one term."]
+            },
+            "item3" : {
+                "year" : 2018, 
+                "h2" : "Commercial exploration", 
+                "p" : ["Successfully piloting in 5 schools, Elewa Education is", "ready for the market. Elewa founds Elewa", "Investment, a cooperative fund in Belgium aimed at", "fueling the growth of Elewa. Elewa lauching four", "commercial services across schools in Kenya."]
+            },
+            "item4" : {
+                "year" : 2019, 
+                "h2" : "Elewa on the map", 
+                "p" : ["Elewa is recognized by UNESCO as a Kenyan", "respentative on top 10 innovations in the", "UNESCO ICT in Education Prize (Theme AI &", "education). Elewa joins the fourth Cohort of the", "'Google for Startups Africa' accelerator program."]
+            },
+            "item5" : {
+                "year" : 2020, 
+                "h2" : "Elewa Diversifies", 
+                "p" : ["Elewa takes a step into the future with Jente", "Rosseel as CEO, Kennedy Adhola as HR Director", "and Peter Reinartz as chairman. Elewa Education", "generalises it's innovative model and finds product", "market-fit int the professional training space across", "Education, Health and Agriculture & Environment.", "iTalanta is born. A tech offshoring company which provides software development services to clients", "in Europe and the US."]
+            },
+            "item6" : {
+                "year" : 2021, 
+                "h2" : "Conversational Learning", 
+                "p" : ["Elewa Education launches first Conversational", "learning pilot together with the Kenya Scouts", "Association. iTalanta grows to be a major activity", "within the company."]
+            }
+        },
+    "aboutLearn" : "Learn more about",
+    "elewaSocialImpact": "Elewa's social impact",
+    "footer" : {
+        "headquaters" : {
+            "h1" : "Headquarters",
+            "address": ["The Promenade, 19 General", "Mathenge Rd", "Nairobi, Kenya"]
+        },
+        "contact" : {
+            "number" : "T +254 78 92 27 755",
+            "email": ["E", "info@elewa.ke"]
+        },
+        "navigation" : {
+            "h1" : "Navigation",
+            "about": "about us",
+            "social" : "Social impact",
+            "invest" : "Invest", 
+            "news" : "News", 
+            "contact" : "Contact"
+        },
+        "brands" : {
+            "h1" : "Brands",
+            "brands": ["Elewa", "Italanta", "Venture labs"]
+        },
+        "privacy" : {
+            "h1" : "Privacy",
+            "terms" : "Terms and conditions",
+            "cookies" : "Cookies preferences"
+        },
+        "icons" : {
+            "facebook" : ["client/src/assets/icons/facebook_lhhwk2 (1).svg"],
+            "instagram" : ["client/src/assets/icons/instagram_x8ujcq (3).svg", "https://www.instagram.com/elewa_education/"],
+            "linkedIn" : ["client/src/assets/icons/linkedin_x8smhm (1).svg", "https://www.linkedin.com/company/elewa/"]
+        }
+    }         
+
+    }
+}
