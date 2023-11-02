@@ -21,3 +21,8 @@
     color: #fff;
     text-decoration: none;  /* this style removes the underline from the link elements */
 }
+
+/* This effects adds the underline during the hover effect */
+.nav-links a:hover{
+    text-decoration: underline; 
+}
