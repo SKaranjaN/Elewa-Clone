@@ -1,7 +1,7 @@
 {"about-page" : 
     {
         "nav" : {
-            "logo": "client/src/assets/logo/Logo_White_arvoyx.svg",
+            "logo": "../../src/assets/logo/Logo_White_arvoyx.svg",
             "logo-alt": "logo",
             "home": "Home",
             "aboutUs": "About Us",
@@ -22,104 +22,104 @@
         "member1": {"name" : "Jente Rosseel",
                     "title" : "Founder, Managing Partner",
                     "linkeIn" : "https://www.linkedin.com/in/jrosseel/", 
-                    "image" : "client/src/assets/images/about-page-images/jente-elewa_wbqyyi.jpg"
+                    "image" : "../../src/assets/images/about-page-images/jente-elewa_wbqyyi.jpg"
                     },
         "member2": {"name" : "Kennedy Adhola",
                     "title" : "Operations & Partnerships",
                     "linkeIn" : "https://www.linkedin.com/in/kennedy-adhola-97570535/", 
-                    "image" : "client/src/assets/images/about-page-images/ken-elewa_ydwzop.jpg"
+                    "image" : "../../src/assets/images/about-page-images/ken-elewa_ydwzop.jpg"
                     },
         "member3": {"name" : "Peter Reinartz",
                     "title" : "Executive Chairman",
                     "linkeIn" : "https://www.linkedin.com/in/peter-reinartz-1b4452ab/", 
-                    "image" : "client/src/assets/images/about-page-images/peter-elewa_zuzovx.jpg"
+                    "image" : "../../src/assets/images/about-page-images/peter-elewa_zuzovx.jpg"
                     },
         "member4": {"name" : "Noella Mwanzia",
                     "title" : "Software Engineer",
                     "linkeIn" : "https://www.linkedin.com/in/noella-mwanzia-633803173/", 
-                    "image" : "client/src/assets/images/about-page-images/noella-elewa_g6tquq.jpg"
+                    "image" : "../../ssrc/assets/images/about-page-images/noella-elewa_g6tquq.jpg"
                     },
         "member5": {"name" : "Ian Odhiambo",
                     "title" : "Founder, Kujali",
                     "linkeIn" : "https://www.linkedin.com/feed/", 
-                    "image" : "client/src/assets/images/about-page-images/ian-elewa_bejey9.jpg"
+                    "image" : "../../src/assets/images/about-page-images/ian-elewa_bejey9.jpg"
                     },
         "member6": {"name" : "Jane Njoroge",
                     "title" : "Software Developer",
                     "linkeIn" : "https://www.linkedin.com/in/jane-w-njoroge/", 
-                    "image" : "client/src/assets/images/about-page-images/jane-elewa_yyybka.jpg"
+                    "image" : "../../src/assets/images/about-page-images/jane-elewa_yyybka.jpg"
                     },
         "member7": {"name" : "Shawn Chiama",
                     "title" : "Software Engineer",
                     "linkeIn" : "https://www.linkedin.com/feed/", 
-                    "image" : "client/src/assets/images/about-page-images/shawn-elewa_tt3iit.jpg"
+                    "image" : "../../src/assets/images/about-page-images/shawn-elewa_tt3iit.jpg"
                     },
         "member8": {"name" : "Joy-Lidah Wawira",
                     "title" : "Software Engineer",
                     "linkeIn" : "https://www.linkedin.com/in/joy-wawira/", 
-                    "image" : "client/src/assets/images/about-page-images/joy_gvbweu.jpg"
+                    "image" : "../../src/assets/images/about-page-images/joy_gvbweu.jpg"
                     },
         "member9": {"name" : "Reagan Charana",
                     "title" : "Software Engineer",
                     "linkeIn" : "https://www.linkedin.com/in/reagan-charana/", 
-                    "image" : "client/src/assets/images/about-page-images/reagan-elewa_bn8xkl.jpg"
+                    "image" : "../../src/assets/images/about-page-images/reagan-elewa_bn8xkl.jpg"
                     },
         "member10": {"name" : "Jente Rosseel",
                     "title" : "Founder, Managing Partner",
                     "linkeIn" : "https://www.linkedin.com/in/jrosseel/", 
-                    "image" : "client/src/assets/images/about-page-images/jente-elewa_wbqyyi.jpg"
+                    "image" : "../../src/assets/images/about-page-images/jente-elewa_wbqyyi.jpg"
                     },
         "member11": {"name" : "Paul Chesa",
                     "title" : "Software Engineer",
                     "linkeIn" : "https://www.linkedin.com/in/paulchesa/", 
-                    "image" : "client/src/assets/images/about-page-images/chesa-elewa_soeb8f.jpg"
+                    "image" : "../../src/assets/images/about-page-images/chesa-elewa_soeb8f.jpg"
                     },
         "member12": {"name" : "Jeff King'ori",
                     "title" : "Software Developer",
                     "linkeIn" : "https://www.linkedin.com/in/jeffrey-king-ori-165333164/", 
-                    "image" : "client/src/assets/images/about-page-images/jeff-elewa_hdupp7.jpg"
+                    "image" : "../../src/assets/images/about-page-images/jeff-elewa_hdupp7.jpg"
                     },
         "member13": {"name" : "Zippy Ntabo",
                     "title" : "Office Administrator & Finance",
                     "linkeIn" : "https://www.linkedin.com/in/zippie-ntabo-310693134/", 
-                    "image" : "client/src/assets/images/about-page-images/zip-elewa_jksbfg.jpg"
+                    "image" : "../../src/assets/images/about-page-images/zip-elewa_jksbfg.jpg"
                     },
         "member14": {"name" : "Lynn Anastasia",
                     "title" : "Software Engineer",
                     "linkeIn" : "https://www.linkedin.com/in/lynn-nyangon/", 
-                    "image" : "client/src/assets/images/about-page-images/IMG_9755_vfprhm.jpg"
+                    "image" : "../../src/assets/images/about-page-images/IMG_9755_vfprhm.jpg"
                     },
         "member15": {"name" : "FrankLine Odero",
                     "title" : "Software Developer",
                     "linkeIn" : "https://www.linkedin.com/in/frankline-sable/", 
-                    "image" : "client/src/assets/images/about-page-images/frank-elewa_kihn9e.jpg"
+                    "image" : "../../src/assets/images/about-page-images/frank-elewa_kihn9e.jpg"
                     },
         "member16": {"name" : "Stephen Mwaura",
                     "title" : "Software Developer",
                     "linkeIn" : "https://www.linkedin.com/in/stephenlemmymwaura/", 
-                    "image" : "client/src/assets/images/about-page-images/lemmy_oosngt.jpg"
+                    "image" : "../../src/assets/images/about-page-images/lemmy_oosngt.jpg"
                     },
-        "leftArrow": "client/src/assets/icons/left-btn-icon.png",
-        "rightArrow": "client/src/assets/icons/right-btn-icon.png",
+        "leftArrow": "../../src/assets/icons/left-btn-icon.png",
+        "rightArrow": "../../src/assets/icons/right-btn-icon.png",
         "cultureH1" : "Our Culture & Values",
         "cultreP" : ["Our culture", "CODE-(T),", "defines us. It protects and guides us to", "success. It keeps our team and management accountable to", "itself, its objective, and our long-term mission."],
-        "cooperative" : { "icon" : "client/src/assets/icons/coorperative_kzlzrg (1).png",
+        "cooperative" : { "icon" : "../../src/assets/icons/coorperative_kzlzrg (1).png",
                           "h1" : "Cooperative",
                           "p" : ["One for all, all for one! We have a cooperative and open", "mindset. If one of us grows, all will follow."] 
                         },
-        "ownership" : { "icon" : "client/src/assets/icons/ownership_yno4a2.png",
+        "ownership" : { "icon" : "../../src/assets/icons/ownership_yno4a2.png",
                         "h1" : "Ownership",
                         "p" : ["We are dependable and honour our commitments. When", "things don't do as planned, as they sometimes do, we", "communicate early to avoid catastrophe."] 
                       },
-        "detail" : { "icon" : "client/src/assets/icons/1721983-200.png",
+        "detail" : { "icon" : "../../src/assets/icons/1721983-200.png",
                       "h1" : "Detail",
                       "p" : ["We are a 'Centre of Excellence' as per global standards.", "We only compete with ourselves, but find in the global standard our only worthy rival."] 
                     },
-        "empathy" : { "icon" : "client/src/assets/icons/ownership_yno4a2.png",
+        "empathy" : { "icon" : "../../src/assets/icons/ownership_yno4a2.png",
                       "h1" : "Empathy",
                       "p" : ["We are nothing without people, and people have different", "contexts and needs. Our organization acts as a safe haven", "and shield for those in need."] 
                     },
-        "transparency" : { "icon" : "client/src/assets/icons/Transparancy_fqal8q.png",
+        "transparency" : { "icon" : "../../src/assets/icons/Transparancy_fqal8q.png",
                       "h1" : "Transparency",
                       "p" : ["Transparency, an open mind, and an open heart hold our organization together.", "We commit to and promote full transparency to ourselves, our stakeholders,", "and our beneficiaries. We furthermore invest heavily in open-source and open-", "data projects, as true pontential lies everywhere. Not just within."] 
                     },
@@ -188,9 +188,9 @@
             "cookies" : "Cookies preferences"
         },
         "icons" : {
-            "facebook" : ["client/src/assets/icons/facebook_lhhwk2 (1).svg"],
-            "instagram" : ["client/src/assets/icons/instagram_x8ujcq (3).svg", "https://www.instagram.com/elewa_education/"],
-            "linkedIn" : ["client/src/assets/icons/linkedin_x8smhm (1).svg", "https://www.linkedin.com/company/elewa/"]
+            "facebook" : ["../../src/assets/icons/facebook_lhhwk2 (1).svg"],
+            "instagram" : ["../../src/assets/icons/instagram_x8ujcq (3).svg", "https://www.instagram.com/elewa_education/"],
+            "linkedIn" : ["../../src/assets/icons/linkedin_x8smhm (1).svg", "https://www.linkedin.com/company/elewa/"]
         }
     }         
 
