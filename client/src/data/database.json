@@ -1,8 +1,7 @@
 {"about-page" : 
     {
         "nav" : {
-            "logo": "../../src/assets/logo/Logo_White_arvoyx.svg",
-            "logo-alt": "logo",
+            "logo": ["../../src/assets/logo/Logo_White_arvoyx.svg", "logo"],
             "home": "Home",
             "aboutUs": "About Us",
             "socialImpact": "Social Impact",

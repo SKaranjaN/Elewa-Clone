@@ -19,12 +19,13 @@ type NavData = {
         // this is an iteration that maps the items in the nav object
         const navItems = Object.keys(jsonData['about-page'].nav).map((key) => {
             // here we are creating a condition in order to create an image element that will contain the path to the image and the alt text, in that if the key is "logo", then using dot notation we can access the value and use it as the src to the image
-          if (key === 'logo') {
-            return (
-              <li key={key} className="nav-logo">
-                <img src={jsonData['about-page'].nav.logo} alt={jsonData['about-page'].nav['logo-alt']} />
-              </li>
-            );
+            if (key === 'logo') {
+                const [logoSrc, logoAlt] = jsonData['about-page'].nav[key]; // Destructure the array
+                return (
+                  <li key={key} className="nav-logo">
+                    <img src={logoSrc} alt={logoAlt} />
+                  </li>
+                );
           } else {
             // this will then render the other key values after iterating through them by also using dot notation
             return (
