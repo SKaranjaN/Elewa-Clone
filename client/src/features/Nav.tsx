@@ -1,6 +1,7 @@
 // This is the nav component, and regards to the MVVM architecture, it acts as the view model, whereas the json data is the model.
 
 import navData from '../../src/data/database.json';
+import '../../src/style/Nav.css'
 
 // Here we are defining the type for the JSON data directly in the component file
 type NavData = {
