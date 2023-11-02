@@ -1,5 +1,6 @@
 // This is the nav component, and regards to the MVVM architecture, it acts as the view model, whereas the json data is the model.
-
+// using the useEffect helps in  adding the event listener to achieve the scrolling effect
+import React, { useEffect } from 'react';
 import navData from '../../src/data/database.json';
 import '../../src/style/Nav.css'
 
@@ -33,6 +34,28 @@ type NavData = {
             );
           }
         });
+
+        useEffect(() => {
+            const nav = document.querySelector('.nav-body'); //here we are using DOM to target the element using the className
+        
+            //then creating a condition if the element we are targeting by className exists, which if it does, the variable prevScrollPos will have an initial position set in reference to the Y axis.
+            if (nav) {
+              let prevScrollPos = window.pageYOffset;
+        
+              window.onscroll = function () {
+                const currentScrollPos = window.pageYOffset;
+        
+                if (currentScrollPos > prevScrollPos) {  //now here we set another condition if the current position is greater that the initially set position, it means the user is scrolling down hence adding the styles in the css file under the className stickyNav.
+                  nav.classList.add('sticky-nav');
+                } else {
+                  nav.classList.remove('sticky-nav');
+                }
+        
+                prevScrollPos = currentScrollPos;
+              };
+            }
+          }, []);
+        
       
         return (
             // through the variable we earlier defined, we can then use it in our return hence avoiding hardcording our values.
