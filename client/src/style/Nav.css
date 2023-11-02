@@ -1,10 +1,9 @@
-/* This is the css file linked to the Nav.tsx to style it */
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 /* The styling below targets the div containing the nav items */
 .nav-body {
-    padding: 50px 0 0 80px;
+    padding: 50px 0 0 0px;
+    display: flex;
     
 }
 
@@ -13,11 +12,12 @@
     flex-direction: row;
     justify-content: flex-end; /* Align text links to the right */
     list-style-type: none;  /* this removes the pointers from the list items */
-    padding: 0 50px 0 0px;
+    padding: 0 0px 0 35px;
 }
 
 .nav-logo {
-    margin-right: 32%; /* Add spacing to the right of the logo */
+    display: flex;
+    margin: 0 430px 0 0px; /* Add spacing to the right of the logo */
 }
 
 .nav-link {
@@ -33,3 +33,7 @@
 .nav-link:hover {
     text-decoration: underline; 
 }
+
+.horizontal-line {
+    width: 95%;
+} 
