@@ -24,12 +24,48 @@ function Footer() {
       <div>
         <h1>{jsonData['about-page'].footer['headquaters'].h1}</h1>
         <ul>
-          {jsonData['about-page'].footer['headquaters'].address?.map((line, index) => (
-            <li key={index}>{line}</li>
-          ))}
+          {Array.isArray(jsonData['about-page'].footer['headquaters'].address)
+            ? jsonData['about-page'].footer['headquaters'].address.map((line, index) => (
+                <li key={index}>{line}</li>
+              ))
+            : null}
         </ul>
+      </div>
+      <div>
+        <h1>{jsonData['about-page'].footer['navigation'].h1}</h1>
+        <p>{jsonData['about-page'].footer['navigation']['about']}</p>
+        <p>{jsonData['about-page'].footer['navigation']['social']}</p>
+        <p>{jsonData['about-page'].footer['navigation']['invest']}</p>
+        <p>{jsonData['about-page'].footer['navigation']['news']}</p>
+        <p>{jsonData['about-page'].footer['navigation']['contact']}</p>
+      </div>
+
+      <div>
+        <h1>{jsonData['about-page'].footer['brands'].h1}</h1>
+        {Array.isArray(jsonData['about-page'].footer['brands']['brands']) ? (
+          <p>{jsonData['about-page'].footer['brands']['brands'].join(', ')}</p>
+        ) : null}
+      </div>
+
+      <div>
+        <h1>{jsonData['about-page'].footer['privacy'].h1}</h1>
+        <p>{jsonData['about-page'].footer['privacy']['terms']}</p>
+        <p>{jsonData['about-page'].footer['privacy']['cookies']}</p>
+      </div>
+
+      <div>
+        <h1>Icons</h1>
+            {Object.keys(jsonData['about-page']?.footer?.icons ?? {}).map((icon, index) => (
+            <div key={index}>
+                <p>{icon}</p>
+                    {(Array.isArray(jsonData['about-page']?.footer?.icons?.[icon]) ? jsonData['about-page']?.footer?.icons?.[icon] : [])?.map((item, i) => (
+                        <img key={i} src={item} alt={icon} />
+                        ))}
+                        </div>
+                    ))}
       </div>
     </div>
   );
 }
+
 export default Footer;
