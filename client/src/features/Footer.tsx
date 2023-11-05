@@ -60,8 +60,7 @@ function Footer() {
                     <p>{jsonData['about-page'].footer['privacy']['cookies']}</p>
                 </div>
 
-                <div>
-                    <h1>Icons</h1>
+                <div className="icons">
                     {Object.keys(jsonData['about-page']?.footer?.icons ?? {}).map((icon, index) => (
                         <div key={index}>
                         {Array.isArray(jsonData['about-page']?.footer?.icons?.[icon]) ? (
