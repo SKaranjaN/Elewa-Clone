@@ -2,7 +2,7 @@
 import React from "react";
 import "../../../src/style/invest-comp-4.css"; //this links the css file and the component
 
-function ComponentThree() {
+function ComponentFour() {
 
   return (
     <div>
@@ -11,4 +11,4 @@ function ComponentThree() {
   );
 }
 
-export default ComponentThree;
+export default ComponentFour;
