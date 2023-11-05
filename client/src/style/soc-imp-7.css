@@ -1,4 +1,38 @@
 /* This file is linked to a social impact component */
 
 /* imported fonts from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+.component-Seven {
+    font-family: 'DM Sans';
+  }
+
+.text {
+    text-align: center; /* this is what centers the text */
+}
+  
+  .carousel-container {
+    width: 100%;
+    height: 200px; 
+    justify-content: space-evenly; /* over here is where we space the images of the carousel */
+    display: flex;
+    overflow-x: hidden;
+    animation: slide 20s linear infinite; /* This is what sets the speed for the slide motion */
+  }
+  
+  .carousel-image {
+    width: 50px; 
+    height: 50%;
+    object-fit: contain; /* Ensure images fill the container */
+  }
+  
+  /* Keyframe animation for sliding images */
+  /* This is what creates the sliding motion effect on the carousel */
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
