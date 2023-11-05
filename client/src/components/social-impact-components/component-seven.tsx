@@ -9,7 +9,7 @@ function ComponentSeven() {
   
     return (
       <div className="component-Seven">
-        <h1 className="text">{componentSevenData.title}</h1>
+        <h1 className="text-4">{componentSevenData.title}</h1>
         <div className="carousel-container">
           {carouselImages.map((image, index) => (
             <img

@@ -9,7 +9,7 @@ function ComponentEight() {
   
     return (
         <div className="component-Eight">
-          <div className="text">
+          <div className="text-3">
               <h1>{componentEightData.title}</h1>
           </div>
         </div>

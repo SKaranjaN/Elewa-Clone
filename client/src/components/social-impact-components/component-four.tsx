@@ -9,7 +9,7 @@ function ComponentFour() {
   
     return (
         <div className="component-Four">
-          <div className="text">
+          <div className="text-2">
               <h1>{componentFourData.title}</h1>
               <p>{componentFourData.p}</p>
           </div>

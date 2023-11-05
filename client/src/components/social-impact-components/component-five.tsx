@@ -13,7 +13,7 @@ function ComponentFive() {
                 src={componentFiveData.image[0]}
                 className="component-image"
             />
-          <div className="text">
+          <div className="text-1">
               <h1>{componentFiveData.title}</h1>
               <p>{componentFiveData.p1}</p>
               <p>{componentFiveData.p2}</p>
