@@ -2,10 +2,10 @@
 
 import React from "react";
 import database from "../../../src/data/database.json"; // This line imports the code from the json file
-import "../../../src/style/invest-comp-2.css"
+import "../../../src/style/invest-comp-3.css"
 
-function ComponentTwo() {
-    // Here is access the data for ComponentTwo from the JSON file
+function ComponentThree() {
+    // Here is how we access the data for ComponentTwo from the JSON file
     const investData = database["invest-page"]["component-two"];
 
     return (
@@ -22,4 +22,3 @@ function ComponentTwo() {
 }
 
 export default ComponentTwo;
-
