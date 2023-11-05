@@ -1,4 +1,40 @@
 /* This file is linked to a social impact component */
 
 /* imported fonts from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+/* This is the file used in styling component 4 in invest page */
+
+/* imported fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+.component-Three {
+    display: flex;
+    align-items: center;
+    font-family: 'DM Sans';
+    padding: 50px 0 0 100px;
+    background-color: black;
+    height: 100vh;
+  }
+  
+  .component-image {
+    width: 30%; 
+    margin: 0 40px 0 0; 
+    height: auto;
+    border-radius: 20px;
+  }
+  
+.text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.text h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.text p {
+    font-size: 18px;
+}
