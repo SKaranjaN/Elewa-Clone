@@ -5,7 +5,13 @@
 
 .componentSeven {
     display: flex;
+    justify-content: center; 
     align-items: center;
     font-family: 'DM Sans';
-    padding: 50px 0 0 100px;
+    text-align: center;
   }
+  
+  .componentSeven h1 {
+    text-align: center;
+  }
+  
