@@ -7,8 +7,9 @@
     font-family: 'DM Sans';
   }
 
-.text {
+.text-4 {
     text-align: center; /* this is what centers the text */
+    color: black;
 }
   
   .carousel-container {
