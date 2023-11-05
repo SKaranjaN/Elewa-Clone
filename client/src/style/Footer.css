@@ -43,3 +43,12 @@
   .icons a {
     margin: 10px 80px 0 0;
   }
+
+  .headquarters ul {
+    text-align: left;
+    padding: 0 100px 0 0;
+  }
+  
+  .headquarters li {
+    list-style-type: none;
+  }
