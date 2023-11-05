@@ -20,7 +20,7 @@ function ComponentSix() {
           </div>
           <div className="button">
               <a href="your-link-here">
-                <div></div>
+                <div className="circle"></div>
                 <div className="button-text">
                     {componentSixData.button.text}
                 </div>
