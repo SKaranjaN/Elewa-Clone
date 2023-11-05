@@ -6,6 +6,8 @@
 /* styling the background */
 .footer-container-1 {
     background-color: white;
+    margin: 0;
+    height: auto;
 }
 
 .footer-container-2 {
@@ -13,6 +15,7 @@
     margin: 80px 0 0 0;
     border-radius: 40px 40px 0 0; /* this adds the rounded corners at the top */
     padding: 80px 0 0 0;
+    width: 100%;
 }
 
 .horizontal-line {
@@ -24,3 +27,19 @@
     display: flex; 
     justify-content: space-evenly;
 }
+
+.footer-logo {
+    padding: 0 0 60px 80px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row; /* Horizontal alignment of icons */
+    justify-content: flex-end; /* Align icons to the right */
+    align-items: flex-end; /* Align icons to the bottom */
+  }
+  
+  .icons a {
+    margin: 10px 80px 0 0;
+  }
