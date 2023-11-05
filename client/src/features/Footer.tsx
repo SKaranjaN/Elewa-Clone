@@ -59,8 +59,8 @@ function Footer() {
                     <p>{jsonData['about-page'].footer['privacy']['terms']}</p>
                     <p>{jsonData['about-page'].footer['privacy']['cookies']}</p>
                 </div>
-
-                <div className="icons">
+            </div>
+            <div className="icons">
                     {Object.keys(jsonData['about-page']?.footer?.icons ?? {}).map((icon, index) => (
                         <div key={index}>
                         {Array.isArray(jsonData['about-page']?.footer?.icons?.[icon]) ? (
@@ -93,7 +93,6 @@ function Footer() {
                         </div>
                     ))}
                 </div>
-            </div>
             <div className="footer-logo">
             <img
               src={jsonData['about-page'].nav.logo[0]}
