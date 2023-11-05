@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-import ComponentFour from './components/invest-page-components/component-four.tsx'
+import ComponentFive from './components/invest-page-components/component-five.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
-    <ComponentFour />
+    <ComponentFive />
   </React.StrictMode>,
 )
