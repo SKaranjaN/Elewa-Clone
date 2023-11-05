@@ -2,3 +2,23 @@
 
 /* imported fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+.component-one {
+    background-image: url("../../src/assets/images/invest-page-images/dark-to-light_xrat5g.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 100vh; 
+    overflow-x: hidden; /* this to remove the scrolling */
+    overflow-y: hidden;
+    color: white; /* here is where I set the font colour to white */
+    font-family: 'DM Sans'; /* this is the font family */
+}
+
+.title {
+    
+}
+
+
