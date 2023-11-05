@@ -10,8 +10,8 @@ function ComponentOne() {
     return (
         <div className="component-one-4">
             <p className="tag">{aboutData.tag}</p>
-            <h1 className="title">{aboutData.title[0]}</h1>
-            <h1 className="title">{aboutData.title[1]}</h1>
+            <h1 className="title">{aboutData.title}</h1>
+            <p className="tag">{aboutData.tag2}</p>
             
         </div>
     );
