@@ -1,4 +1,20 @@
-/* This is the file used in styling component 3 in invest page */
+/* This is the file used in styling component 4 in invest page */
 
 /* imported fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+.component-four {
+    display: flex;
+    align-items: center;
+  }
+  
+  .component-image {
+    max-width: 50%; 
+    margin-right: 20px; 
+  }
+  
+.text {
+    display: flex;
+    flex-direction: column;
+}
+  
