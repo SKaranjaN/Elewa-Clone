@@ -9,16 +9,18 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 100vw; 
+    width: auto; 
     height: 100vh; 
     overflow-x: hidden; /* this to remove the scrolling */
     overflow-y: hidden;
     color: white; /* here is where I set the font colour to white */
     font-family: 'DM Sans'; /* this is the font family */
+    padding: 150px 0 0 100px;
 }
 
-.title {
-    
+.title  {
+    font-weight: normal;
+    font-size: 50px;
 }
 
 
