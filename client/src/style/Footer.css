@@ -2,3 +2,16 @@
 
 /* imported fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+/* styling the background */
+.footer-container-1 {
+    background-color: white;
+}
+
+.footer-container-2 {
+    background-color: black;
+    margin: 80px 0 0 0;
+    border-radius: 40px 40px 0 0; /* this adds the rounded corners at the top */
+    color: white; /* here is where I set the font colour to white */
+    font-family: 'DM Sans'; /* this is the font family */
+}
