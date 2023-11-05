@@ -14,4 +14,6 @@
     border-radius: 40px 40px 0 0; /* this adds the rounded corners at the top */
     color: white; /* here is where I set the font colour to white */
     font-family: 'DM Sans'; /* this is the font family */
+    display: flex; 
+    justify-content: space-evenly;
 }
