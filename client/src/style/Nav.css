@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 /* The styling below targets the div containing the nav items */
-.nav-body {
-    padding: 50px 0 0 0px;
-    display: flex;
+.nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 2;
+}
+.nav-body {
+    padding: 50px 0 0 0px;
+    display: flex;
+   
 }
 
 .nav-links {
