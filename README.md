@@ -1,7 +1,7 @@
 <a href="https://elewa.ke">Elewa-Clone-Website</a>
 # Elewa-Clone-Website
 
-![Vokoscreen Logo](client/src/assets/logo/vokoscreen-2023-11-05_23-42-05.gif)
+![Vokoscreen Logo](client/src/assets/logo/6b454f0a-35b6-40e9-a18c-76183c09c80d.gif)
 
 
 
