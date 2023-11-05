@@ -197,7 +197,7 @@
 
     "invest-page" : {
         "component-one" : {
-            "image" : ["../../src/ssets/images/invest-page-images/dark-to-light_xrat5g.jpg", "image"],
+            "image" : ["../../src/assets/images/invest-page-images/dark-to-light_xrat5g.jpg", "image"],
             "tag" : "Trade, not aid",
             "title" : ["Southern innovations addressing", "global problems"]
         },
