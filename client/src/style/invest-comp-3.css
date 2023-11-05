@@ -2,3 +2,13 @@
 
 /* imported fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+.component-three {
+    font-family: 'DM Sans';
+}
+
+.component-three h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+}
