@@ -2,3 +2,22 @@
 
 /* imported fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+.component-one {
+    background-image: url("../../../src/assets/images/social-impact-page-images/Social-Impact-image.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto; 
+    height: 70vh; 
+    overflow-x: hidden; /* this to remove the scrolling */
+    overflow-y: hidden;
+    color: white; /* here is where I set the font colour to white */
+    font-family: 'DM Sans'; /* this is the font family */
+    padding: 150px 0 0 100px;
+}
+
+.title  {
+    font-weight: normal;
+    font-size: 50px;
+}
