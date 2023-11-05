@@ -311,18 +311,21 @@
             "p2" : "We build for today, with a lens on tomorrow."
         },
         "component-7" : {
-            "image 1" : ["../../../../src/assets/images/social-impact-page-images/2017-GIZ-Logo_htdnpa.png"],
-            "image 2" : ["../../src/assets/images/social-impact-page-images/adc-logo_dgxpul.jpg"],
-            "image 3" : ["../../src/assets/images/social-impact-page-images/Enabel-logo_afiel7.png"],
-            "image 4" : ["../../src/assets/images/social-impact-page-images/farmbetter-logo_x2acda.png"],
-            "image 5" : ["../../src/assets/images/social-impact-page-images/hoplit-logo_nsryy7.webp"],
-            "image 6" : ["../../src/assets/images/social-impact-page-images/it_volk_black_logo_image_iowrws.png"],
-            "image 7" : ["../../src/assets/images/social-impact-page-images/lady-impact_rnc9jy.jpg"],
-            "image 8" : ["../../src/assets/images/social-impact-page-images/ms-adc_y96dms.jpg"],
-            "image 9" : ["../../src/assets/images/social-impact-page-images/Spotlights_7_pplnvm.jpg"],
-            "image 10" : ["../../src/assets/images/social-impact-page-images/syndicyourself_logfo_qiqrex.png"],
-            "image 11" : ["../../src/assets/images/social-impact-page-images/vvob-logo_qyvjbp.jpg"],
-            "image 12" : ["../../src/assets/images/social-impact-page-images/wwf-4-logo-png-transparent_tbkfcq.png"]
+            "title" : "Some of our impact projects",
+            "carousel" : {
+                "image 1" : ["../../../../src/assets/images/social-impact-page-images/2017-GIZ-Logo_htdnpa.png"],
+                "image 2" : ["../../src/assets/images/social-impact-page-images/adc-logo_dgxpul.jpg"],
+                "image 3" : ["../../src/assets/images/social-impact-page-images/Enabel-logo_afiel7.png"],
+                "image 4" : ["../../src/assets/images/social-impact-page-images/farmbetter-logo_x2acda.png"],
+                "image 5" : ["../../src/assets/images/social-impact-page-images/hoplit-logo_nsryy7.webp"],
+                "image 6" : ["../../src/assets/images/social-impact-page-images/it_volk_black_logo_image_iowrws.png"],
+                "image 7" : ["../../src/assets/images/social-impact-page-images/lady-impact_rnc9jy.jpg"],
+                "image 8" : ["../../src/assets/images/social-impact-page-images/ms-adc_y96dms.jpg"],
+                "image 9" : ["../../src/assets/images/social-impact-page-images/Spotlights_7_pplnvm.jpg"],
+                "image 10" : ["../../src/assets/images/social-impact-page-images/syndicyourself_logfo_qiqrex.png"],
+                "image 11" : ["../../src/assets/images/social-impact-page-images/vvob-logo_qyvjbp.jpg"],
+                "image 12" : ["../../src/assets/images/social-impact-page-images/wwf-4-logo-png-transparent_tbkfcq.png"]
+            }
         },
         "component-8" : {
             "title" : "Become part of our mission and join elewa."
