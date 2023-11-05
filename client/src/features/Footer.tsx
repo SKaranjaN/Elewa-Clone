@@ -28,7 +28,7 @@ function Footer() {
         <div className="footer-container-2">
             <hr className="horizontal-line" />
             <div className="footer-content">
-                <div>
+                <div className="headquarters">
                     <h1>{jsonData['about-page'].footer['headquaters'].h1}</h1>
                     <ul>
                     {Array.isArray(jsonData['about-page'].footer['headquaters'].address)
