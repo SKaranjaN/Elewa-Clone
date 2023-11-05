@@ -7,19 +7,24 @@ function ComponentSix() {
     const componentSixData = database["invest-page"]["component-six"];
   
     return (
-      <div className="componentSix">
-        <div className="text">
+        <div className="componentSix">
+          <div className="text">
             <h1>{componentSixData.title}</h1>
             <p>{componentSixData.p}</p>
-            <div>{componentSixData.button}</div>
+            <div className="button">
+              <a href="your-link-here">
+                <div></div>
+                {componentSixData.button.text}
+              </a>
+            </div>
+          </div>
+          <img
+            src={componentSixData.image[0]}
+            alt={componentSixData.image[1]}
+            className="component-image"
+          />
         </div>
-        <img
-          src={componentSixData.image[0]}
-          alt={componentSixData.image[1]}
-          className="component-image"
-        />
-      </div>
-    );
-  }
-  
-  export default ComponentSix;
+      );
+    }
+    
+    export default ComponentSix;
