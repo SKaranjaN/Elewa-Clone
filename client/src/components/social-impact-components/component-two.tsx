@@ -8,12 +8,12 @@ function ComponentTwo() {
     const componentData = database["social-impact-page"]["component-2"];
   
     return (
-      <div>
+        <div className="componentTwo">
         <div>
           {Object.entries(componentData).map(([cardKey, cardData]) => (
-            <div key={cardKey}>
-              <p>{cardData.number}</p>
-              <p>{cardData.description}</p>
+            <div key={cardKey} className="card">
+              <p className="number">{cardData.number}</p>
+              <p className="description">{cardData.description}</p>
             </div>
           ))}
         </div>
