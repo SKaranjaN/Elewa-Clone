@@ -8,7 +8,7 @@ function ComponentOne() {
     const investData = database["invest-page"]["component-one"];
 
     return (
-        <div className="component-one">
+        <div className="component-one-2">
             <p className="tag">{investData.tag}</p>
             <h1 className="title">{investData.title[0]}</h1>
             <h1 className="title">{investData.title[1]}</h1>
