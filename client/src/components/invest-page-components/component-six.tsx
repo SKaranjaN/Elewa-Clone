@@ -14,7 +14,7 @@ function ComponentSix() {
             className="component-image"
           />
           <div>
-          <div className="text">
+          <div className="text-c">
             <h1>{componentSixData.title}</h1>
             <p>{componentSixData.p}</p>
           </div>

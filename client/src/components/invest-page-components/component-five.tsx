@@ -8,7 +8,7 @@ function ComponentFive() {
   
     return (
       <div className="componentFive">
-        <div className="text">
+        <div className="text-b">
             <h1>{componentFiveData.title}</h1>
             <p>{componentFiveData.p1}</p>
             <p>{componentFiveData.p2}</p>
