@@ -53,9 +53,17 @@
   }
   
   
-  
   .button-text {
-    color: black;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+  }
+
+   /* hover effect on the button */
+   .button:hover {
+    background-color: black;
+  }
+  .button-text:hover {
+    color: rgb(255, 255, 255);
     transition: 0.3s;
   }
   
