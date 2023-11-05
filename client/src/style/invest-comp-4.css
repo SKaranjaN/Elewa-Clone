@@ -16,7 +16,7 @@
     height: auto;
   }
   
-.text {
+.text-a {
     display: flex;
     flex-direction: column;
 }

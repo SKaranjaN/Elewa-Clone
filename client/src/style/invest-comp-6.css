@@ -17,17 +17,18 @@
     border-radius: 20px;
   }
   
-.text {
+.text-c {
     display: flex;
     flex-direction: column;
+    color: #000;
 }
 
-.text h1 {
+.text-c h1 {
     font-weight: normal;
     font-size: 40px;
 }
 
-.text p {
+.text-c p {
     font-size: 18px;
 }
 
