@@ -55,15 +55,19 @@
   
   .button-text {
     color: rgb(0, 0, 0);
-    transition: 0.3s;
+    transition: 1s;
+    transform: translateX(0); /* this is the initial position where the text is before hovering */
   }
-
-   /* hover effect on the button */
-   .button:hover {
+  
+  /* hover effect on the button */
+  .button:hover {
     background-color: black;
   }
-  .button-text:hover {
+  
+  .button:hover .button-text {
     color: rgb(255, 255, 255);
-    transition: 0.3s;
+    transform: translateX(60px); /* This is the slide distance of the text */
+    transition: 1s;
   }
+  
   
