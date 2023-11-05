@@ -10,7 +10,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     width: auto; 
-    height: 100vh; 
+    height: 70vh; 
     overflow-x: hidden; /* this to remove the scrolling */
     overflow-y: hidden;
     color: white; /* here is where I set the font colour to white */
