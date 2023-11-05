@@ -55,14 +55,37 @@ function Footer() {
 
       <div>
         <h1>Icons</h1>
-            {Object.keys(jsonData['about-page']?.footer?.icons ?? {}).map((icon, index) => (
+        {Object.keys(jsonData['about-page']?.footer?.icons ?? {}).map((icon, index) => (
             <div key={index}>
-                <p>{icon}</p>
-                    {(Array.isArray(jsonData['about-page']?.footer?.icons?.[icon]) ? jsonData['about-page']?.footer?.icons?.[icon] : [])?.map((item, i) => (
-                        <img key={i} src={item} alt={icon} />
-                        ))}
-                        </div>
-                    ))}
+            {Array.isArray(jsonData['about-page']?.footer?.icons?.[icon]) ? (
+                <>
+                <a
+                    href={jsonData['about-page']?.footer?.icons?.[icon]?.[1] || ''}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                    key={icon}
+                    src={jsonData['about-page']?.footer?.icons?.[icon]?.[0] || ''}
+                    alt={icon}
+                    />
+                </a>
+                </>
+            ) : (
+                <a
+                href={jsonData['about-page']?.footer?.icons?.[icon]?.[2] || ''}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <img
+                    key={icon}
+                    src={jsonData['about-page']?.footer?.icons?.[icon] as string}
+                    alt={icon}
+                />
+                </a>
+            )}
+            </div>
+        ))}
       </div>
     </div>
   );
