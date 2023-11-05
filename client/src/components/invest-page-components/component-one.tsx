@@ -11,7 +11,7 @@ function ComponentOne() {
         <div className="component-one">
             <p className="tag">{investData.tag}</p>
             <h1 className="title">{investData.title[0]}</h1>
-            <h1 className="subtitle">{investData.title[1]}</h1>
+            <h1 className="title">{investData.title[1]}</h1>
             
         </div>
     );
