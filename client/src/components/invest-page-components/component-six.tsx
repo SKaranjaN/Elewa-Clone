@@ -13,6 +13,7 @@ function ComponentSix() {
             alt={componentSixData.image[1]}
             className="component-image"
           />
+          <div>
           <div className="text">
             <h1>{componentSixData.title}</h1>
             <p>{componentSixData.p}</p>
@@ -20,9 +21,12 @@ function ComponentSix() {
           <div className="button">
               <a href="your-link-here">
                 <div></div>
-                {componentSixData.button.text}
+                <div className="button-text">
+                    {componentSixData.button.text}
+                </div>
               </a>
             </div>
+          </div>
         </div>
       );
     }
