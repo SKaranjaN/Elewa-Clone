@@ -11,10 +11,12 @@
             "careers": "Careers",
             "contact": "Contact"
         },
-        "phrase-1": "HOW TO RECOGNIZE AN ELEWA MEMBER",
-        "aboutPageH1A": "Dependable, Creative, Supportive",
-        "aboutPageH1B": "Open Minded and Fun*",
-        "phrase-2": "SERIOUS WHEN IT MATTERS",
+        "component-1" : {
+            "image" : ["../../src/assets/images/about-page-images/elewa-team_digqu3.jpg"],
+            "title" : "Dependable, Creative, Supportive. Open Minded and Fun*",
+            "tag" : "HOW TO RECOGNIZE AN ELEWA MEMBER",
+            "tag2" : "SERIOUS WHEN IT MATTERS"
+        },
         "aboutPageH2": "We Care!",
         "aboutPageP1": ["Elewa is a mission-driven organization. We make", "use of our cooperative and shared culture to", "drive the needle for the development of people", "and environment. We care about our growth, but", "also care deeply about the context surroundin", "us."],
         "aboutPageP2": ["Our investments are therefore not limited to", "internal ones, but contribute heavily to our", "community and environment. From training the", "next scout leaders on sustainable practices, to", "bridging the employment gap for junior software", "developers."],
