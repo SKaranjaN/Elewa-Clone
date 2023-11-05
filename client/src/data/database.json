@@ -193,6 +193,75 @@
         "linkedIn": ["../../src/assets/icons/linkedin_x8smhm (1).svg", "https://www.linkedin.com/company/elewa/"]
       }
     }       
+    },
+
+    "invest-page" : {
+        "component-one" : {
+            "tag-one" : ["../../src/ssets/images/invest-page-images/dark-to-light_xrat5g.jpg", "image"],
+            "title" : ["Southern innovations addressing", "global problems"]
+        },
+        "component-two" : {
+            "title" : "How we see it differently",
+            "p" : ["The global south is rapidly catching up with the 'developed' world. It's time", "for you to get to know the rapid development, innovation and drive going on", "in this part of the world(East Africa, South Asia and beyond"],
+            "image": ["../../src/assets/images/invest-page-images/Mask_Group_17_rjkgrq.png", "image"]
+        },
+        "component-three" : {
+            "title" : "Key Figures",
+            "cards" : {
+                "card-1" : {
+                    "number" : "1.3M",
+                    "description" : "Approx. number of Kenyan talents reaching the age of 18 in 2022"
+                },
+                "card-2" : {
+                    "number" : "5M",
+                    "description" : "number of East-Africans(EAC) reaching the age of 18 in 2022"
+                },"card-3" : {
+                    "number" : 2022,
+                    "description" : "Democratic Republic of Congo joins the East African Community"
+                },"card-4" : {
+                    "number" : "1.5M",
+                    "description" : "The number of unfilled IT vacancies in the US and EU markets"
+                },"card-5" : {
+                    "number" : "10M",
+                    "description" : "Number of technical vacancies by 2030"
+                },"card-6" : {
+                    "number" : 2050,
+                    "description" : "Africa holds the worlds largest workforce"
+                },"card-7" : {
+                    "number" : "$4.6M",
+                    "description" : "Startup funding raised by African startups in 2022"
+                },"card-8" : {
+                    "number" : "310%",
+                    "description" : "Increase in startup funding for companies with HQ in Kenya"
+                }
+            }
+        },
+        "component-four" : {
+            "image" : ["../../src/assets/images/invest-page-images/IMG_6523_vabpyo.png", "image"],
+            "title" : "Elewa NV, a multi-stakeholder cooperation",
+            "p1" : "At the heart of Elewa lies the structure Elewa NV. Based in Brussels, Belgium, Elewa NV is a private holding company which controls the assets of all Elewa activities.",
+            "p2" : "Elewa NV is owned and controlled by Elewa's founder, a small community of investors which share in the vision of Elewa and Elewa employees based throughout the activities of the group."
+        },
+        "component-five" : {
+            "image" : ["../../src/assets/images/invest-page-images/creative-hub-image_dd6o8o.jpg", "image"],
+            "title" : "The Elewa Creative Hub",
+            "p1" : "Coming soon; The Elewa Creative Hub Lies at the heart of our organization. A two-acre property at the center of Nairobi's creative district, the hub connects all Elewa's Activities under a single banner.",
+            "p2" : "Through partnerships with creative community, the Elewa Hub will organize vibrant activites that bring talents from different fields (tech, business, art, fashion) together to nurture continuous innovation."
+        }, 
+        "component-six" : {
+            "image" : ["../../src/assets/images/invest-page-images/invest-now_ftxg4z.jpg", "image"],
+            "title" : "Investing in Elewa NV",
+            "p" : "From time to time, we offer investment opportunities (private equity & debt) to out community of investors. Interested to take part when this opportunity arrives?",
+            "button" : {
+                "black-arrow-image" : ["../../src/assets/icons/right-btn-icon.png", "image"],
+                "white-arrow-image" : ["../../src/assets/icons/white-arrow.png", "image"],
+                "text" : "Join the waiting list"
+            }
+        },
+        "compoenent-seven" : {
+            "title" : "Become part of our mission.And start investing"
+        }
+        
 
     }
 }
