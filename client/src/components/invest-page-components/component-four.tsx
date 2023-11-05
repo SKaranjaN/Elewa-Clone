@@ -13,9 +13,11 @@ function ComponentFour() {
           alt={componentFourData.image[1]}
           className="component-image"
         />
+        <div className="text">
         <h1>{componentFourData.title}</h1>
         <p>{componentFourData.p1}</p>
         <p>{componentFourData.p2}</p>
+        </div>
       </div>
     );
   }
