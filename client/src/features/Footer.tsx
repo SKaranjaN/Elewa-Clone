@@ -7,6 +7,10 @@ import '../../src/style/Footer.css';
 // Here we are defining the type for the JSON data directly in the component file
 type FooterData = {
     "about-page": {
+        // added this definition in order to access the logo
+        nav: {
+            [key: string]: string | string[];
+          };
       footer: {
         [key: string]: {
           [property: string]: string | string[] | undefined;
@@ -91,6 +95,12 @@ function Footer() {
                     ))}
                 </div>
             </div>
+            <div className="footer-logo">
+            <img
+              src={jsonData['about-page'].nav.logo[0]}
+              alt={jsonData['about-page'].nav.logo[1]}
+            />
+          </div>
       </div>
     </div>
   );
